@@ -6,8 +6,33 @@
 .navbar {
   display: flex;
   flex-direction: row;
+  border: 2px solid red;
+  justify-content: space-around;
+  text-align: center;
 }
 
+.navbar :hover {
+  color: crimson;
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+}
 .navbar img {
   box-sizing: border-box;
+  width: 20%;
+}
+
+.navlist {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  overflow: visible;
+  height: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+  /* margin: 100%; */
+}
+
+.navlist a {
+  text-decoration: none;
+  font-size: 3vh;
 }
